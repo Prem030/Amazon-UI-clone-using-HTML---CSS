@@ -6,7 +6,6 @@
 }
 
 
-
 body {
     background-color: #E3E6E6;
 }
@@ -410,7 +409,7 @@ main {
 }
 
 .card{
-    width: 200px;
+    width: 300px;
     margin-right: 1rem;
     
 }
@@ -430,6 +429,15 @@ main {
     margin-bottom: 1rem;
 }
 
+.scroll2 .card img{
+    width: 200px;
+}
+
+
+.scroll3 .card {
+    
+    margin: 0 2rem;
+}
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++ media querry ++++++++++++++++++++++++++++++++++++++++++ */
@@ -458,6 +466,9 @@ main {
 
     .apper-on1200 {
         display: block;
+    }
+    .vanishon1200{
+        display: none;
     }
 }
 
