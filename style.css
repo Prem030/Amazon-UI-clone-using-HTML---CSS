@@ -51,6 +51,13 @@ nav a:hover {
     margin-right: .5rem;
 }
 
+.logo-link{
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.logo-link:hover{
+    border: 1px solid white;
+}
 .logo span {
     text-decoration: none;
     color: white;
@@ -58,7 +65,7 @@ nav a:hover {
 }
 
 .logo:hover {
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 2px;
 }
 
@@ -76,8 +83,7 @@ nav a:hover {
 }
 
 .deliver:hover {
-    border: 1px solid white;
-    border-radius: 3px;
+   
 }
 
 .deliver i {
@@ -439,6 +445,177 @@ main {
     margin: 0 2rem;
 }
 
+footer{
+    width: 100%;
+    color: white;
+    background-color: #232F3E;
+}
+
+.ontop{
+    background-color: #37475A;
+
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+}
+
+.ontop:hover{
+    background-color: #485769;
+}
+
+.links{
+    width: 100%;
+    padding-top: 3rem;
+
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+footer .logo{
+    border: none;
+}
+footer .logo:hover{
+    border: none;
+}
+
+.footer-box{
+    padding: 0 .5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.footer-link{
+    margin-top: 5px;
+    font-size: 13px;
+    color: #D7D7DD;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
+
+.links{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+ 
+.footer-box2{
+    width: 150px;
+}
+
+hr{
+    border-top:  solid gray;
+    border-bottom: 0;
+}
+
+.logo-lang-box{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.footer-lang i{
+    color: white;
+    border: none;
+}
+
+.footer-lang{
+    background-color: rgba(37, 37, 37, 0);
+   border: none;
+   border: 1px solid gray;
+   padding: .5rem;
+   margin-right: 1rem;
+   margin-left: 7rem;
+   border-radius: 5px
+
+}
+
+.footer-country{
+    border: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 5px
+}
+
+#footer-lang-btn{
+    
+    background-color: #232F3E;
+    color: white;
+    border: none;
+}
+
+
+.amazon-other-services{
+    background-color: #131A22;
+    width: 100%;
+    padding: 2rem 0rem;
+}
+
+.services-container{
+    width: 1000px;
+    margin: auto;
+    
+}
+
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+.service-name:hover{
+    text-decoration: underline;
+}
+.services p{
+    font-size: 13px;
+}
+
+.service-name  span {
+    font-size: 12px;
+    color: gray;
+}
+
+.service-name span a:hover{
+    text-decoration: underline;
+}
+
+.others{
+    
+    margin: auto;
+    margin-top: 2.3rem;
+    margin-bottom: .5rem;
+}
+
+.term-condition{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+.term-condition P{
+    margin: 0 .5rem;
+    font-size: 12px;
+    
+}
+
+
+.copyright{
+    
+    text-align: center;
+    font-size: 12px;
+}
 
 /* ++++++++++++++++++++++++++++++++++++++++++++ media querry ++++++++++++++++++++++++++++++++++++++++++ */
 
