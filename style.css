@@ -82,9 +82,7 @@ nav a:hover {
     padding: .5rem .5rem;
 }
 
-.deliver:hover {
-   
-}
+
 
 .deliver i {
     margin: .5rem .3rem 0 .5rem;
@@ -126,8 +124,10 @@ nav a:hover {
 #search-text-bar {
     width: 90%;
     border: none;
-    color: red;
-    flex-shrink: 2;
+    /* color: red; */
+
+    padding: 0 1rem;
+    font-size: 16px;
 }
 
 
